@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    
+    <style>
+        .baslik{
+            background-color: #3F3F3F;
+            color: #FFFFFF;
+            padding: 10px;
+        }
+        .acik{
+            background-color: #E8E8E8;
+        }
+        .koyu{
+            background-color: #CDCDCD; 
+        }
+        .koyu2{
+            background-color: #595859;
+            color: #FFFFFF;
+            text-align: right;
+        }
+        .sayi{
+            text-align: center;
+        }
+        .fiyat{
+            text-align: right;
+        }
+        .genel{
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 1.4px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+        }
+        .btn{
+            border: none;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <table class="genel">
+        <thead class="baslik">
+            <tr>
+                <th>Ürün Kodu</th>
+                <th colspan="6">Ürün Adı</th>
+                <th>Miktar</th>
+                <th>Birim Fiyat</th>
+                <th>Ara Toplam</th>
+                <th colspan="2"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="koyu">
+                <td>154654</td>
+                <td colspan="6">Notebook</td>
+                <td class="sayi">1</td>
+                <td class="fiyat">5.400₺</td>
+                <td class="fiyat">5.400₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="acik">
+                <td>456466</td>
+                <td colspan="6">Klavye</td>
+                <td class="sayi">2</td>
+                <td class="fiyat">80₺</td>
+                <td class="fiyat">160₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="koyu">
+                <td>564646</td>
+                <td colspan="6">Monitör</td>
+                <td class="sayi">1</td>
+                <td class="fiyat">700₺</td>
+                <td class="fiyat">700₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="acik">
+                <td>123598</td>
+                <td colspan="6">Mouse</td>
+                <td class="sayi">2</td>
+                <td class="fiyat">50₺</td>
+                <td class="fiyat">100₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="koyu">
+                <td>613448</td>
+                <td colspan="6">Play Station</td>
+                <td class="sayi">1</td>
+                <td class="fiyat">2.500₺</td>
+                <td class="fiyat">2.500₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="acik">
+                <td>789799</td>
+                <td colspan="6">Usb Bellek</td>
+                <td class="sayi">3</td>
+                <td class="fiyat">120₺</td>
+                <td class="fiyat">360₺</td>
+                <td><i class="fa-regular fa-pen-to-square"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr class="koyu2">
+                <th colspan="9"">TOPLAM</th>
+                <th>9.220₺</th>
+                <th colspan="2"></th>
+            </tr>
+            <tr class="btn">
+                <td class="btn1"><button style="background-color: #f45e5b;"><i class="fa-duotone fa-cart-circle-plus"></i> Alışverişe Devam</button></td>
+                <td class="btn2"><button style="background-color: #f45e5b;"><i class="fa-regular fa-credit-card"></i> Ödemeye Geç</button></td>
+            </tr>
+          
+        </tbody>
+    </table>
+    
+</body>
+</html>
